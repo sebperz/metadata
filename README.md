@@ -1,8 +1,10 @@
+<div align="center">
+
 ![Huellas](huellas.png)
 
-# Huellas
-
 Herramienta de escritorio para extraer, validar y reportar la metadata de archivos PDF. Asegura la trazabilidad e integridad de documentos mediante análisis automático.
+
+</div>
 
 ## Características
 
