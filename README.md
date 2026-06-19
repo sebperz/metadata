@@ -5,14 +5,14 @@
 Herramienta de escritorio para extraer, validar y reportar la metadata de archivos PDF. Asegura la trazabilidad e integridad de documentos mediante análisis automático.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/sebperz/metadata/releases)
+[![Version](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/sebperz/huellas/releases)
 [![Rust](https://img.shields.io/badge/rust-1.70%2B-orange)](https://www.rust-lang.org)
 
 </div>
 
 ## Inicio rápido
 
-1. **Descargá** el binario para tu sistema operativo desde [Releases](https://github.com/sebperz/metadata/releases)
+1. **Descargá** el binario para tu sistema operativo desde [Releases](https://github.com/sebperz/huellas/releases)
 2. **Ejecutalo** con doble clic — la app se abre en tu navegador
 3. **Arrastrá** una carpeta con PDFs y obtené el análisis al instante
 
@@ -29,7 +29,7 @@ Herramienta de escritorio para extraer, validar y reportar la metadata de archiv
 
 ## Descarga (sin compilar)
 
-Descargá el binario para tu sistema operativo desde [Releases](https://github.com/sebperz/metadata/releases):
+Descargá el binario para tu sistema operativo desde [Releases](https://github.com/sebperz/huellas/releases):
 
 | SO | Archivo |
 |---|---|
@@ -45,7 +45,7 @@ Doble clic en el archivo y la herramienta se abre en tu navegador. Sin instalaci
 - Rust 1.70+
 
 ```bash
-git clone https://github.com/sebperz/metadata.git
+git clone https://github.com/sebperz/huellas.git
 cd metadata
 cargo build --release
 ```
