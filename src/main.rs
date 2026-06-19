@@ -2,7 +2,7 @@ mod export;
 mod pdf;
 
 use axum::{
-    extract::Multipart,
+    extract::{DefaultBodyLimit, Multipart},
     http::{header, StatusCode},
     response::{Html, IntoResponse, Response},
     routing::{get, post},
@@ -33,6 +33,7 @@ async fn main() {
         .route("/api/analyze", post(analyze))
         .route("/api/export/csv", get(export_csv))
         .route("/api/export/xlsx", get(export_xlsx))
+        .layer(DefaultBodyLimit::max(500 * 1024 * 1024))
         .layer(cors)
         .with_state(state);
 
