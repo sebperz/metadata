@@ -1,4 +1,4 @@
-![Huellas](huellas.jpg)
+![Huellas](huellas.png)
 
 # Huellas
 
