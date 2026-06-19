@@ -13,6 +13,19 @@ Herramienta de escritorio para extraer, validar y reportar la metadata de archiv
 - Funciona en Windows, macOS y Linux
 - Sin instalación: un solo ejecutable, doble clic y listo
 
+## Descarga (sin compilar)
+
+Descargá el binario para tu sistema operativo desde [Releases](https://github.com/sebperz/metadata/releases):
+
+| SO | Archivo |
+|---|---|
+| Linux | `metadata-analyzer-linux-x86_64` |
+| Windows | `metadata-analyzer-windows-x86_64.exe` |
+| macOS Intel | `metadata-analyzer-macos-x86_64` |
+| macOS Apple Silicon | `metadata-analyzer-macos-aarch64` |
+
+Doble clic en el archivo y la herramienta se abre en tu navegador. Sin instalación.
+
 ## Requisitos para compilar
 
 - Rust 1.70+
